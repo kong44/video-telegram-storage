@@ -1,5 +1,8 @@
 @import "tailwindcss";
-
+@font-face {
+  font-family: 'km_font';
+  src: url('./_asset/KHMEROSFREEHAND.TTF');
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +25,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: km_font, Arial, Helvetica, sans-serif;
 }
